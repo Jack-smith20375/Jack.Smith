@@ -1,0 +1,81 @@
+package objects;
+
+public class ClassLesson {
+
+	public static void main(String[] args) {
+		aircraft1 cessna172 = new aircraft1(); // creates object of class aircraft
+
+		aircraft1 piperSaratoga = new aircraft1();// creates object of class aircraft
+
+		// nameOfObject.variableName = assignValue;
+		cessna172.passengers = 4;
+		cessna172.cruiseSpeed = 140;
+		cessna172.fuelCapacity = 56.5;
+		cessna172.fuelBurnRate = 9.5;
+
+		System.out.println("Cessna 172 passengers : " + cessna172.passengers + " \n");
+
+		// System.out.println("Piper Saratoga passangers : " +cessna172.passengers + "
+		// \n");
+
+		// ----------------------------------------------------------------------------------------------------------
+		school schoolData = new school(); // creates an object of class school
+
+		schoolData.school = "Eglinton";
+		schoolData.year = 11;
+		schoolData.studentName = "Jack Smith";
+		schoolData.age = 18;
+		schoolData.grade = 'B';
+
+		System.out.println("Name of school: " + schoolData.school);
+		System.out.println("Year of pupil : " + schoolData.year);
+		System.out.println("Name of student : " + schoolData.studentName);
+		System.out.println("Age of pupil : " + schoolData.age);
+		System.out.println("Pupils grade : " + schoolData.grade);
+
+		// ----------------------------------------------------------------------------------------------------------------
+
+		animals species = new animals(); // creates an object of class animals
+
+		species.cat = "Tabby Cat";
+		species.dog = "Sausage Dog";
+		species.horse = "Shire Horse";
+		species.mouse = "Mickey Mouse";
+		species.parrot = "Talking parrot";
+
+		System.out.println("Type of Cat"+ species.cat);
+		System.out.println("Type of Dog "+species.dog);
+		System.out.println("Type of Horse "+species.horse);
+		System.out.println("Type of Mouse "+species.mouse);
+		System.out.println("Type of Parrot "+species.parrot);
+
+		System.out.println("Animals : "+ species.cat+ " : "+ species.dog + " : "+ species.horse + " : "+species.mouse + " : "+ species.parrot);
+	}
+
+}
+
+		// aircraft class
+		class aircraft1 {
+			int passengers; // Number of People
+			int cruiseSpeed; // MPH
+		
+			double fuelCapacity; // Gallons
+			double fuelBurnRate; // Gallons PH
+		}
+		
+		// school class
+		class school {
+			String school; // name of school
+			int year; // year in school
+			String studentName; // name
+			int age; // age
+			char grade; // grade
+		}
+		
+		class animals {
+			String dog;
+			String cat;
+			String mouse;
+			String horse;
+			String parrot;
+		}

@@ -1,0 +1,18 @@
+package Pt2;
+
+public class Bird {
+ 
+	public void fly()
+	{
+	int a =5;
+	int b= 10;	
+	int c;	
+	
+	System.out.println("flying...");
+	 
+	c = a+b;
+		System.out.println(c);
+	}
+	
+}
+ 

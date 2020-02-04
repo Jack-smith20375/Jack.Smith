@@ -1,0 +1,28 @@
+package objects;
+
+public class ClassLesson {
+
+	public static void main (String[] args)
+	{
+		 aircraft cessna172 = new aircraft(); //creates object of class aircraft
+		 
+		aircraft piperSaratoga = new aircraft();//creates object of class aircraft
+		 
+		//nameOfObject.variableName = assignValue;  
+		cessna172.passengers = 4;
+		
+		 
+	}
+	
+
+	
+}
+
+		class aircraft
+		{
+			int passengers;   //Number of People
+			int cruiseSpeed;  //MPH
+		
+			double fuelCapacity; //Gallons
+			double fuelBurnRate; //Gallons PH
+		}

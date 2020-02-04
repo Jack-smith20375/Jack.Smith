@@ -1,0 +1,16 @@
+package UsingPrintF;
+
+public class printF1 {
+
+	public static void main(String[] args)
+	{
+	String animal1 = "cat";
+	String animal2 = "dog";	
+	String animal3 = "sheep";	
+	String animal4 = "chicken";	
+		
+		System.out.println("hello this is regular printLN");
+	System.out.printf("hello this is a %S printF",animal1);
+	}
+
+}

@@ -1,0 +1,64 @@
+package Questions;
+//
+//1.	Write a program for a college's admission office. Prompt the user for a student's numeric high school grade point average (eg 3.2) and an admission test score from 0 to 100. Print the message "Accept" if the student has any of the following:
+//
+//•	A grade point average of 3.0 or above and an admission test score of at least 60
+//•	A grade point average below 3.0 and an admission test score of at least 80
+//
+//If the student does not meet either of the qualification criteria, print "Reject".
+//
+//Modify the program above so that if a student enters a grade point average under 0 or over 4.0 or a test score under 0 or over 100, an error message appears instead of the "Accept" or "Reject" message.
+//
+
+import java.util.Scanner;
+
+public class IfQuestionsPt1 
+{
+
+	public static void main(String[] args)
+	{
+		Scanner key = new Scanner(System.in);
+
+		boolean error = false;
+		
+		System.out.println("Please enter Students numeric high score :");
+		int numericHighScore = key.nextInt();
+		
+		if(numericHighScore<0 || numericHighScore>4)
+		{
+			System.out.println("Error, invalid Score entered please reenter corect results!");
+			error = true;
+		}
+		
+		
+		
+		
+		
+		
+		if(error==false)
+		{
+		System.out.println("Please enter an admissions test score 0-100 :");
+		int admissionTestScore = key.nextInt();
+			
+		if(admissionTestScore<0 || admissionTestScore>100)
+		{
+			System.out.println("invalid Score entered");
+		}
+		else if(numericHighScore >=3 && admissionTestScore>=60)
+		{
+			System.out.println("Accepted");
+		}
+		else if (numericHighScore<=3 && admissionTestScore>=80)
+		{
+		System.out.println("Accepted");	
+		}
+		else 
+		{
+			System.out.println("Rejected");
+		}
+		}
+		
+		
+	}
+
+}

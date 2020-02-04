@@ -1,0 +1,15 @@
+package Pt2;
+
+public class Zoo {
+
+	public static void main(String args[])
+	{
+		animal sheep = new animal(4, "M", 25);
+		
+		System.out.println(sheep.age);
+		sheep.age = 5;
+		
+	    System.out.println(sheep.age);
+	} 
+	
+}  

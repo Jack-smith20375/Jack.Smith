@@ -1,0 +1,19 @@
+package Pt2;
+
+public class animal {
+
+
+	int age;
+	String gender;
+	double weightInLbs;
+	
+	
+	public animal(int age,String gender,double weightInLbs )
+	{
+		System.out.println();
+	}
+	
+	
+	
+	
+}

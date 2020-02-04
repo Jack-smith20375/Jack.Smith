@@ -1,0 +1,21 @@
+package classes;
+
+public class ClassLesson {
+
+	public static void main (String[] args)
+	{
+		
+	}
+	
+	
+}
+
+
+		class aircraft
+		{
+			int passengers;   //Number of People
+			int cruiseSpeed;  //MPH
+		
+			double fuelCapacity; //Gallons
+			double fuelBurnRate; //Gallons PH
+		}

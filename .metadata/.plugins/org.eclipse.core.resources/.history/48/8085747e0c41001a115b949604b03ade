@@ -1,0 +1,45 @@
+package Questions;
+
+//3.	A lawn-mowing service needs a program to work out their pricing strategy. 
+//The lawn-mowing season lasts 20 weeks. The weekly fee mowing a lot under 400 m2 is £25. 
+//The fee for a lot that is 400 m2 or more but under 600 m2 is £35 per week. The fee for a lot that is over 600 m2 is £50 per week. 
+//Prompt the user for the length and width of a lawn and then print the weekly mowing fee, as well as the 20-week seasonal fee.
+
+import java.util.Scanner;
+
+public class ifQuestionsPt3 
+{
+
+	public static void main(String[] args)
+	{
+	Scanner key = new Scanner(System.in);	
+
+	int weeklyFee=0;
+	
+	System.out.println("please enter the width of the lawn : ");
+	double length = key.nextDouble();
+	
+	System.out.println("please enter the width of the lwn : ");
+	double width = key.nextDouble();
+	
+	double area = length*width;
+	
+	if(area >400)
+	{
+	weeklyFee = 25; 	
+	}
+	else if(area>=400 || area<=600)
+	{
+	weeklyFee = 35;	
+	}
+	else 
+	{
+	weeklyFee = 50;	
+	}
+	
+	double seasonalFee= weeklyFee*20;
+	System.out.println("Your weekly fee is £"+ weeklyFee +"\nYour seasonal we is £"+seasonalFee);
+	
+	}
+
+}

@@ -1,0 +1,17 @@
+package Pt2;
+
+public class Zoo {
+
+	public static void main(String args[])
+	{
+		animal creature = new animal(10, "M", 125);
+		
+		creature.eat();
+		
+		
+		
+	} 
+	
+	
+	
+}

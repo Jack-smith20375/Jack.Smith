@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+C:\Users\Jack.Smith\OneDrive - FinTrU Limited\EclipseWorkSpace2\git\Jack.Smith\.metadata\.plugins\org.eclipse.jdt.core
+2509002241.index
+3450309452.index
+557760305.index
+2900304975.index
+1034334848.index
+4212017923.index
+1707184483.index

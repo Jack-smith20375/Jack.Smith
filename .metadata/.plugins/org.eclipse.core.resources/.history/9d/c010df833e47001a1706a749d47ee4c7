@@ -1,0 +1,29 @@
+package UsingPrintF;
+
+public class printF1 {
+
+	public static void main(String[] args)
+	{
+	
+	char character = 'h';
+	System.out.printf("%S\r", character);
+	
+	double decimalNumber = 2.34;
+	System.out.printf("%d", decimalNumber);
+	
+	float bigNumber = 0.00567f;
+	System.out.printf("%f", bigNumber);
+	
+	int num = 10;
+	System.out.printf("%i", num);
+	
+	String name = "jack";
+	System.out.printf("%S + %s", name, name);
+	//%% percent sign
+	
+	
+	
+	
+	}
+
+}

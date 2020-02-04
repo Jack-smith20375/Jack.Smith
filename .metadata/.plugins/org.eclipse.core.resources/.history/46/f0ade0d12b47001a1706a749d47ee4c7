@@ -1,0 +1,11 @@
+package UsingPrintF;
+
+public class printF1 {
+
+	public static void main(String[] args)
+	{
+	System.out.println("hello this is regular printLN");
+	System.out.printf("hello this is printF");
+	}
+
+}

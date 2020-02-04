@@ -1,0 +1,52 @@
+package objects;
+
+public class ClassLesson {
+
+	public static void main (String[] args)
+	{
+		 aircraft cessna172 = new aircraft(); //creates object of class aircraft
+		 
+		aircraft piperSaratoga = new aircraft();//creates object of class aircraft
+		 
+		//nameOfObject.variableName = assignValue;  
+		cessna172.passengers = 4;
+		cessna172.cruiseSpeed=140;
+		cessna172.fuelCapacity= 56.5;
+		cessna172.fuelBurnRate= 9.5;
+	
+	System.out.println("Cessna 172 passengers: " +cessna172.passengers);	
+		
+	school schoolData = new school();	//creates an object of school
+	
+	schoolData.school = "Eglinton";
+	schoolData.year = 11;
+	schoolData.studentName = "Jack Smith";
+	schoolData.age = 18;
+	schoolData.grade = 'B';
+	
+	System.out.println("Name of school: "+schoolData.school );
+	System.out.println("Year of pupil : "+schoolData.year );
+	}	
+
+}
+		
+//aircraft class
+		class aircraft
+		{
+			int passengers;   //Number of People
+			int cruiseSpeed;  //MPH
+		
+			double fuelCapacity; //Gallons
+			double fuelBurnRate; //Gallons PH
+		}
+		
+		
+		// school class
+		class school
+		{
+			String school; //name of school
+			int year; // year in school
+			String studentName; // name
+			int age; // age
+			char grade; //grade 
+		}

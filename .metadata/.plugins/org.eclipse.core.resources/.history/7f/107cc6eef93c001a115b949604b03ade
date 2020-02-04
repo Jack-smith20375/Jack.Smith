@@ -1,0 +1,20 @@
+package oldMacDonald;
+
+import java.util.Scanner;
+
+public class ItsADate {
+
+	public static void main(String[] args)
+	{
+	Scanner key  = new Scanner(System.in);
+		
+		System.out.println("please neter your Date of Birth in the format : DD/MM/YYYY");
+		
+	String dOB = key.next();
+		
+		
+		
+	}
+	
+	
+}

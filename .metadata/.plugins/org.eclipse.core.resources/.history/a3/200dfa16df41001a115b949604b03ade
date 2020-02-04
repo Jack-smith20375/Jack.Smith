@@ -1,0 +1,15 @@
+package Pt1;
+
+public class HumanPt2 {
+
+	public static void main(String args[])
+	{
+		Human jack;
+		
+		jack = new Human();
+		jack.speak();
+		 	
+		jack.age = 10;
+		jack.heightInInches= 140;
+	}
+}

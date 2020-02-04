@@ -1,0 +1,28 @@
+package oldMacDonald;
+
+import java.util.Scanner;
+
+public class ItsADatePt2 
+{
+
+	public static void main(String[] args)
+	{
+		Scanner key = new Scanner(System.in);
+		
+	//	for(int i=0; i==5;i++)
+	//	{
+		System.out.println("please enter your DoB in the format : DD/MM/YYYY");
+		String dOB = key.nextLine();
+		
+		String[] dOBArray = dOB.split("/");
+		
+		System.out.println(dOBArray[1]);
+		
+		
+		
+		
+		//}
+		
+	}
+
+}

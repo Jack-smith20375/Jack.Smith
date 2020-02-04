@@ -1,0 +1,31 @@
+package oldMacDonald;
+
+import java.util.Scanner;
+import java.time.*;
+import java.time.format.DateTimeFormatter;
+
+public class ItsADate {
+    
+	
+	
+	public static void main(String[] args)
+	{
+	Scanner key  = new Scanner(System.in);
+		
+	askQuestion();
+		
+	String dOB = key.next();
+	
+	LocalDate Date = LocalDate.parse(dOB, DateTimeFormatter.ofPattern("dd/MM/yyyy")  );
+	int month = Date.getMonthValue();
+	System.out.println(month);
+		
+		 
+		
+	}
+	
+	public static void askQuestion()
+	{
+		System.out.println("please enter your Date of Birth in the format : DD/MM/YYYY");
+	}
+}
